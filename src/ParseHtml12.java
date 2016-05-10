@@ -24,8 +24,8 @@ import java.nio.charset.Charset;
 
 
 public class ParseHtml12 {
-	public static final String DEST = "../Carta.pdf";
-    public static final String HTML = "../Carta.html";
+	public static final String DEST = "files/Carta.pdf";
+    public static final String HTML = "files/Carta.html";
     
     public static void main(String[] args) throws IOException, DocumentException {
         File file = new File(DEST);
